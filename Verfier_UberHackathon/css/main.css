@@ -1,0 +1,71 @@
+.header1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 5px;
+    text-align: center;
+    background: #00308F
+    
+}
+
+.header2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding: 5px;
+    text-align: center;
+    background: #00308F
+    
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+
+
+}
+
+.empty-space {
+    height: 30px
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 250px; /* Add spacing between buttons */
+}
+
+.acceptButton {
+    color: rgb(255, 255, 255); font-size: 30px; line-height: 30px; padding: 9px; border-radius: 10px; 
+    font-family: "Arial Black", Gadget, sans-serif; 
+    background-color:#00308F
+    }
+     .acceptButton:hover {
+        background: #1C6EA4; }
+     .acceptButton:active {
+        background: #144E75; }
+
+.rejectButton {
+    color: rgb(255, 255, 255); font-size: 30px; line-height: 30px; padding: 9px; border-radius: 10px; 
+    font-family: "Arial Black", Gadget, sans-serif; 
+    background-color:#00308F
+    }
+     .rejectButton:hover {
+        background: #1C6EA4; }
+     .rejectButton:active {
+        background: #144E75; }
+
+    
+
+        
+
+
+
+
